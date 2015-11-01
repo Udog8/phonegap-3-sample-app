@@ -53,6 +53,7 @@ var app = {
     onDeviceReady: function() {
         initPushwoosh();
         app.receivedEvent('deviceready');
+		window.location.href = "http://canadiancmc.wpengine.com";
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
